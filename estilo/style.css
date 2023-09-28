@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ac4040;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(204, 20, 51) black);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black; 
+}
+
+header > p {
+    font-size: 1.2em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.616);
+}
+
+nav {
+    text-align: center;
+    background-color: #eca29a;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.466);   
+}
+
+nav > a {
+
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: #8C3737;
+    color: black;
+}
+img {
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+}
+img > a {
+
+    justify-content: center;
+    
+}
+article {
+    margin: auto;
+    margin-top: 20px; 
+    max-width: 600px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f7cbc7;
+    box-shadow: 0px, 0px 10px rgba(0, 0, 0, 0.425);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 3em;
+    border-radius: 10px;
+    margin-top: -1px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #8b3737, transparent);
+    text-indent: 8px;
+}
+main p {
+    margin: 20px 15px 20px 15px;
+    text-align: justify; 
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #8b373743;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#dov {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 3px;
+    border-radius: 10px;
+}    
+
+footer a {
+
+    color: white;
+    font-weight: bolder;
+}
